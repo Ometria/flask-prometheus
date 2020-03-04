@@ -26,6 +26,8 @@ METRICS_EXCLUDE_ENDPOINTS = (
     "static",
     ".api_metrics",
     ".api_healthz",
+    "healthz",
+    "metrics",
 )
 
 
