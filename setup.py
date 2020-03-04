@@ -6,7 +6,7 @@ with open('README.md') as readme:
 setup(
     name='flask_prometheus',
     py_modules=['flask_prometheus'],
-    version='0.0.1',
+    version='0.0.2',
     description='Prometheus metrics exporter for Flask',
     long_description=long_description,
     long_description_content_type='text/markdown',

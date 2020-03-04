@@ -12,7 +12,7 @@ Prometheus(app)
 ## Metrics
 ```python
 REQUESTS = Counter(
-    "http_request_total", "Total Requests", labelnames=["method", "path", "status"]
+    "http_requests_total", "Total Requests", labelnames=["method", "path", "status"]
 )
 LATENCY = Histogram(
     "http_request_duration_seconds",
